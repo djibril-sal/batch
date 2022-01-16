@@ -1,0 +1,11 @@
+package com.hama.SpringBackend.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.hama.SpringBackend.model.Employee;
+
+@Repository
+public interface EmployeeRepository extends JpaRepository<Employee, Long>{
+
+}
